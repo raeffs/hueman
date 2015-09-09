@@ -136,7 +136,8 @@ a,
 .comment-awaiting-moderation,
 .child-menu a:hover,
 .child-menu .current_page_item > a,
-.wp-pagenavi a { color: '.ot_get_option('color-1').'; }
+.wp-pagenavi a,
+#before-featured-widget a { color: '.ot_get_option('color-1').'; }
 
 .themeform input[type="submit"],
 .themeform button[type="submit"],
