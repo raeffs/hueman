@@ -804,11 +804,6 @@ box-shadow: inset 0 1px 0 rgba(0,0,0,0.05); }
 
 .sticky {}
 
-/*  post : search
-/* ------------------------------------ */
-.search .page.type-page .post-thumbnail,
-.search .page.type-page .post-meta { display: none; }
-
 /*  post : featured
 /* ------------------------------------ */
 #flexslider-featured .flex-direction-nav { position: absolute; top: -50px; left: auto; right: 0; }
