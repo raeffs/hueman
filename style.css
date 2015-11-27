@@ -1036,12 +1036,10 @@ transition: all 0.2s ease-out; }
 
 /*  post format : status
 /* ------------------------------------ */
-.format-status .post-title { display: none; }
 .single .format-status .entry { font-size: 24px; line-height: 1.4em; }
 
 /*  post format : aside
 /* ------------------------------------ */
-.format-aside .post-title { display: none; }
 
 /*  post format : gallery
 /* ------------------------------------ */
