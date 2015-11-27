@@ -71,7 +71,7 @@
 		</div><!--/#before-com-widget-->
 		<?php endif; ?>
 
-		<?php comments_template('/comments.php',true); ?>
+		<?php if ( ot_get_option('post-comments') != 'off' ) { comments_template('/comments.php',true); } ?>
 
 	</div><!--/.pad-->
 

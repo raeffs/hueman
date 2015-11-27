@@ -1,7 +1,7 @@
 <div class="sharrre-container">
 	<span><?php _e('Share','hueman'); ?></span>
 	<?php if (ot_get_option('sharrre-twitter', 'on') == 'on'): ?>
-		<div id="twitter" data-url="<?php echo the_permalink(); ?>" data-text="<?php echo the_title(); ?>" data-title="Tweet"></div>
+		<div id="twitter" data-url="<?php echo the_permalink(); ?>" data-text="<?php echo the_title(); ?>" data-title="Tweet"><a class="box" href="#"><div class="count" href="#"><i class="fa fa-plus"></i></div><div class="share"><i class="fa fa-twitter"></i></div></a></div>
 	<?php endif; ?>
 	<?php if (ot_get_option('sharrre-facebook', 'on') == 'on'): ?>
 		<div id="facebook" data-url="<?php echo the_permalink(); ?>" data-text="<?php echo the_title(); ?>" data-title="Like"></div>
