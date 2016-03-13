@@ -160,6 +160,7 @@ body { font-family: "Titillium", Arial, sans-serif; }
 /*  base : forms
 /* ------------------------------------ */
 input, textarea, button, select, label { font-family: inherit; }
+.themeform p,
 .themeform input,
 .themeform select,
 .themeform textarea,
@@ -200,7 +201,7 @@ input, textarea, button, select, label { font-family: inherit; }
 .themeform input[type="number"]:focus, 
 .themeform select:focus,
 .themeform textarea:focus { border-color: #ccc; color: #444; -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.1); box-shadow: 0 0 3px rgba(0,0,0,0.1); }
-.themeform label .required { color: #3b8dbd; }
+.themeform .required { color: #3b8dbd; font-weight: 600; }
 .themeform input[type="submit"],
 .themeform button[type="submit"] { background: #3b8dbd; color: #fff; padding: 8px 14px; font-weight: 600; display: inline-block; border: none; cursor: pointer; -webkit-border-radius: 3px; border-radius: 3px; }
 .themeform input[type="submit"]:hover,
@@ -1390,7 +1391,6 @@ box-shadow: inset 0 1px 0 rgba(255,255,255,0.25); }
 /*  comments : form
 /* ------------------------------------ */
 .logged-in-as,
-.comment-notes, 
 .form-allowed-tags { display: none; }
 #respond { position: relative; }
 #reply-title { margin-bottom: 20px; }
