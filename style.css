@@ -592,7 +592,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 /* ------------------------------------------------------------------------- *
  *  Section: Header
 /* ------------------------------------------------------------------------- */
-#header { background: #33363b; position: relative; padding-bottom: 60px; }
+#header { background: #33363b; position: relative; padding-bottom: 60px; background-repeat: no-repeat; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 #header .pad { padding-top: 30px; padding-bottom: 30px; }
 #header .container-inner { position: relative; }
 

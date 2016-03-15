@@ -14,7 +14,11 @@
 
 <div id="wrapper">
 
+	<?php if ( ot_get_option('header-background-image') == '' ): ?>
 	<header id="header">
+	<?php else: ?>
+	<header id="header" style="background-image: url(<?php echo ot_get_option('header-background-image'); ?>);">
+	<?php endif; ?>
 	
 		<?php if ( has_nav_menu('topbar') ): ?>
 			<nav class="nav-container group" id="nav-topbar">

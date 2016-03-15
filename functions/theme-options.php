@@ -479,6 +479,14 @@ function custom_theme_options() {
 			'type'		=> 'upload',
 			'section'	=> 'header'
 		),
+		// Header: Header Background Image
+		array(
+			'id'		=> 'header-background-image',
+			'label'		=> 'Header Background Image',
+			'desc'		=> 'Upload a header background image.',
+			'type'		=> 'upload',
+			'section'	=> 'header'
+		),
 		// Footer: Ads
 		array(
 			'id'		=> 'footer-ads',
